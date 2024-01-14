@@ -1,0 +1,104 @@
+body{
+    margin-top:10px;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #181922;
+    /* overflow: hidden; */
+}
+
+.hsr-left-panel{
+    height: calc(100vh - 1rem);
+    overflow-y:hidden;
+}
+.hsr-left-panel::-webkit-scrollbar{
+    display:none;
+}
+.left-top{
+    width:100%;
+    height:230px;
+    text-align: center;
+    align-items: center;
+    background: #242531;
+    /* position: absolute; */
+}
+
+.left-bottom{
+    width: 100%;
+    height:350px;
+    overflow: scroll;
+    
+}
+.left-bottom::-webkit-scrollbar{
+    display: none;
+}
+.left-footer{
+    background: #242531;
+}
+
+.hsr-main-area{
+    height: calc(100vh - 1rem);
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+.hsr-main-area::-webkit-scrollbar{
+    display:none;
+}
+.img-container{
+    height: 55vh; 
+    width: 100%;
+    /* background-size: cover; */
+    overflow: hidden; 
+}
+
+.hsr-main-white-section{
+    /* background-color: rgba(255,255,255, 0.7); */
+    height: calc(60vh - 4rem);
+    position: relative;
+    bottom: -1rem;
+    overflow: hidden;
+}
+
+
+.hsr-right-panel{
+    height: calc(100vh - 4rem);
+}
+.card{
+    background: #181922;
+    color:white;
+}
+.Services h4{
+    color:white;
+}
+.card-container a{
+    text-decoration: none;
+    color:yellow;
+}
+.card-title{
+    color:white;
+}
+.card-title p{
+    color:rgba(255, 255, 255, 0.315);
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+.c-logo{
+    text-align: center;
+}
+.card,.col-rec,.c-logo row,footer{
+    background: #2A2B37;
+}
+.card p,.rec p,footer p{
+    color:#6D6C70;
+}
+footer{
+    
+   display:flex;
+   justify-content: space-between; 
+}
+footer p{
+    padding:4px;
+    text-align: center;
+    margin-top: 10px;
+}
